@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .container {
+            display:grid;
+            grid-template-columns: 80px 200px auto;
+            column-gap: 50px;
+            background-color: lightcoral;
+            padding: 10px;
+        }
+        .container div {
+            background-color: #f1f1f1;
+            border: 5px solid black;
+            padding: 10px;
+            font-size: 30px;
+        }
+        .item1 {
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+    </style>
+<body>
+    <h1> Grid-column-start and grid-column-end and Properities</h1>
+    <p >Let the first grid item start at column-line 1, and end on column-line 3;</p>
+    <div class="container">
+        <div class="item1">1</div>
+        <div class="item2">2</div>
+        <div class="item3">3</div>
+        <div class="item4">4</div>
+        <div class="item5">5</div>  
+    </div>
+</body>
+</head>
+</html>

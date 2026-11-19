@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .container {
+            display:grid;
+            grid-template-columns: 80px 200px auto;
+            column-gap: 50px;
+            background-color: lightcoral;
+            padding: 10px;
+        }
+        .container div {
+            background-color: #f1f1f1;
+            border: 1px solid black;
+            padding: 10px;
+            font-size: 24px;
+        }
+        .item1 {
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+    </style>
+<body>
+    <h1> create a flex container</h1>
+    <div class="container">
+        <div item1></div>
+        <div item2></div>
+        <div item3></div>
+        <div item4></div>
+        <div item5></div>  
+        <div item6></div> 
+        <div item7></div> 
+        <div item8></div> 
+    </div>
+</body>
+</head>
+</html>
